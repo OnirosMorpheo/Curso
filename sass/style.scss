@@ -1,0 +1,17 @@
+$color_titulo:blue;
+
+* {
+    box-sizing: block;    
+}
+
+header {
+    h1 {
+        color: $color_titulo;
+    }
+}
+
+article {
+    >p {
+        color: green;
+    }
+}

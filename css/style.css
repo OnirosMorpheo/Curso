@@ -1,0 +1,10 @@
+* {
+  box-sizing: block; }
+
+header h1 {
+  color: blue; }
+
+article > p {
+  color: green; }
+
+/*# sourceMappingURL=style.css.map */
