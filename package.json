@@ -1,7 +1,7 @@
 {
-  "name": "curso",
+  "name": "curso_pelayo",
   "version": "1.0.0",
-  "description": "Prueba Npm",
+  "description": "Prueba npm",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/OnirosMorpheo/Curso.git"
   },
-  "author": "",
+  "keywords": [
+    "CSS3",
+    "HTML"
+  ],
+  "author": "Pedro Prado",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/OnirosMorpheo/Curso/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/OnirosMorpheo/Curso#readme"
+  "homepage": "",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
 }
