@@ -1,4 +1,8 @@
 $color_titulo:blue;
+@mixin base($color:blueviolet) {
+    color: $color;
+    font-size: 2rem;
+}
 
 * {
     box-sizing: block;    
@@ -10,8 +14,18 @@ header {
     }
 }
 
+.marron {
+    color: maroon;    
+}
+
 article {
+
+    p {
+        @include base(green); //sustituye el código de base en la posición.
+    }
+
     >p {
+        @extend .marron; //al revés que include. coge el selector y lo proyecta a la clase marron.
         color: green;
     }
 }

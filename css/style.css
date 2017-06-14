@@ -4,6 +4,12 @@
 header h1 {
   color: blue; }
 
+.marron, article > p {
+  color: maroon; }
+
+article p {
+  color: green;
+  font-size: 2rem; }
 article > p {
   color: green; }
 
